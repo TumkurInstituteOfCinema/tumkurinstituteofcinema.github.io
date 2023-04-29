@@ -1,156 +1,206 @@
 <html>
-  <head>
-<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <link rel="stylesheet" href="./index.css">
-  </head>
- <body>
-<!-- nav bar code -->
-<nav id="navbar1" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-  <div class="container">
 
-    <span class="navbar-brand">Tumkur Film Institute </span>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+</head>
 
-    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text">
-        <i class="fa fa-bars fa-1x"></i></span>
-    </button>
+<body>
+  <!-- nav bar code -->
+  <nav class="navbar  navbar-expand-lg border-bottom">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./resources/images/logo.png" alt="Bootstrap" width="45"
+          height="30"></a>
+      <span>Tumkur Institute of Cinema</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-      <ul class="nav navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link" id="active1" href="#title">Home</a></li>
-        <li class="nav-item"><a class="nav-link" id="active2" href="#Portfolio">About</a></li>
-        <li class="nav-item"><a class="nav-link" id="active3" href="#ContactUs">Contact</a></li>
-      </ul>
-    </div>
-
-  </div>
-</nav>
-
-<!-- carousel code -->
-<div class="container" id="title" style="margin-top:4rem;" >
-  <div class="hero mt-4">
-    <div class="hero--banner">
-      <div class="banner--main">
-        <div id="slider">
-          <div class="slides">
-            <img src="https://hhsbanner.com/wp-content/uploads/2019/03/victoria_falls-900x300.jpg" width="100%" class="banner--main_img" />
-          </div>
-
-          <div class="slides">
-            <img src="https://blog.cognifit.com/wp-content/uploads/2019/11/hiking-900x300.jpg" width="100%" class="banner--main_img" />
-          </div>
-
-          <div class="slides">
-            <img src="https://travelfree.info/wp-content/uploads/2018/02/croatia-waterfall-in-deep-forest-of-Cr-12755165-900x300.jpg" width="100%" class="banner--main_img" />
-          </div>
-
-          <div class="slides">
-            <img src="https://www.piemonturismo.it/site/wp-content/uploads/2014/07/13-laghi-grande.jpg" width="100%" class="banner--main_img" />
-          </div>
-
-          <div class="slides">
-            <img src="https://improvephotography.com/wp-content/uploads/2017/09/Julian-Baird-20170914-3-900px.jpg" width="100%" class="banner--main_img" />
-          </div>
-
-          <div id="dot"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
-        </div>
-
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto w-100 justify-content-end">
+          <li class="nav-item"><a class="nav-link" id="active1" href="#title">Home</a></li>
+          <li class="nav-item"><a class="nav-link" id="active2" href="#Portfolio">About</a></li>
+          <li class="nav-item"><a class="nav-link" id="active3" href="#ContactUs">Contact</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Other</a>
+          </li>
+        </ul>
       </div>
-
     </div>
+  </nav>
+
+  <!-- carousel code -->
+
+
+  <div id="carouselExampleIndicators" class="carousel slide container mt-4" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100"
+          src="https://improvephotography.com/wp-content/uploads/2017/09/Julian-Baird-20170914-3-900px.jpg"
+          alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100"
+          src="https://www.piemonturismo.it/site/wp-content/uploads/2014/07/13-laghi-grande.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100"
+          src="https://travelfree.info/wp-content/uploads/2018/02/croatia-waterfall-in-deep-forest-of-Cr-12755165-900x300.jpg"
+          alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
   </div>
-</div>
 
-<!-- aboutus code -->
-<section class="about-section" id="Portfolio">
-  <div class="container">
-    <div class="row">
-          <div class="sec-title">
-            <span class="title">About Institution</span>
-            <h2>We are Creative Tech Enthusiast working since 2020</h2>
-          </div>
-            <div class = "col-sm">
-            <p class="text p-4">MK Shankar -
-            MK Shankar did Post graduation in Cinema and thereafter started working as freelance film maker. He has produced and directed more than seventy five Documentaries, three Hindi feature films and various corporate films and commercials (Pidilite, Thermax, Crompton, L&T to name a few). His award winning films include Solution (1986), Silent Revolution (1991) The resurgence (2003) and the Messengers (2004). He is a visiting faculty at various film institutes in Mumbai and Maharashtra and also a selection committee member for MIFF (2010).
-            Shubhra Datta -
-            did her Post graduation in Mass communication from Jadhavpur University and thereafter joined SRFTI, Kolkata to pursue her studies in Film making. As a student of Cinematography she excelled in lighting techniques. Under the able guidance of internationally acclaimed Cinematographer Subrata Mitra (Pather Panchali, Aparajito, Apur Sansar) Shubra Datta learnt the finer nuances of lighting techniques and cinematography for three years at SRFTI. Since 1997, she worked as a freelance film maker simultaneously assisting some of the top – notch Cinematographers in the film industry. The projects include Munna Bhai MBBS, Shikhar, Delhi – 6, Mausam to name a few. Her films ‘The Seed keepers and ‘Ladies Special’ won the prestigious national awards.</p>
-            <img src="https://img.freepik.com/free-photo/man-filming-with-professional-camera_23-2149066348.jpg?size=626&ext=jpg&ga=GA1.2.1793105318.1681189053&semt=ais" class="rounded p-4">
-          </div>
-          <div class = "col-sm">
-            <img src="https://img.freepik.com/free-photo/people-taking-part-dance-therapy-class_23-2149346545.jpg?size=626&ext=jpg&ga=GA1.1.1793105318.1681189053&semt=ais" class="border-radius p-4">
-            <p class="text p-4">Shailendra Singh ‘Shellee’ - 
-            Shailendra Singh Sodhi commonly known as ‘Shellee’ is a poet, film lyricist and writer. He has worked as lyricist and background music composer for various Hindi films including the critically acclaimed Dev D, Udta Punjab and other films like Luv shuvte chicken khurana, Shahid, Jugni, Phillauri, Veer de wedding, Manmarziayan, Jai mummy Di, Jawani jaaneman etc.
-                        Kuldip Sinha - 
-            Kuldip Sinha did his diploma in Cinema from FTII Pune after completing his graduation from University of Pune. Winner of eight national and Five International awards, he served ministry of I&B as a Director General in its Films Division Wing. He was also CEO of Children’s Film Society of India. As a Director he also served 10th and 11th MIFF and 15th Golden Elephant International Children’s Film Festival, Hyderabad. As a prolific writer he has written two novels and five technical books on various aspects of film making.
-               Few of his notable films which won critical acclaim – Gandhi – An emerging reality –(1998)Through a Lens Starkly(1997), No Room for Fear(1996), Toote Pankh(1995) Druzba(1992) Taranath Shenoy(1990), , Services of Trees(1989), Dry Land farming(1985). Presently he is member of Film Censor Board, Mumbai, Film & Television Institute of India, Pune and Satyajit Ray Film & Television institute – Kolkata.
-            </p>
-          </div>
-          
-          <div class="col-sm">
-            <p class="text p-4">     Prashantanu Mahapatra - 
-            A post graduate in Cinema from FTII , Prashantanu Mahapatra teaches cinema at various institutes all over Mumbai and Maharashtra. As a freelancer, he has done Cinematography for more than a dozen feature films and fifty short and Documentaries. His award winning films include ‘Breathing without Air’(2004) The Last Monk (2006), Meemansa(2016) and Hello Arsi (2018). Currently he is a faculty member at department of Cinematography, FTII, Pune.</p>
-           <img src="https://img.freepik.com/free-photo/young-sportive-man-daancing-breakdance-isolared-black-backgrounf-neon-with-mixed-lights_155003-45629.jpg?size=626&ext=jpg&ga=GA1.2.1793105318.1681189053&semt=ais" class="border-radius p-4">
-          </div>
-
-          
-          <div class="btn-box" id="ContactUs">
-            <a href="#" class="theme-btn btn-style-one">Contact Us</a>
-          </div>
-        
-      
-
-    </div>
-    <div class="sec-title">
-      <span class="title">Our Future Goal</span>
-      <h2>We want to lead in innovation & Technology</h2>
-    </div>
-    <div class="text">
-      This has a reference to our discussion for an institute exclusively related to film studies, teaching and film related activities like shooting, production of corporate and feature films, short films and web series.
-    </div>
-    <div class="text">
-      Subsequently as per your request technical proposal for the proposed Institute at Tumkuru is being submitted to you for your perusal.
-    </div>
-
-  </div>
-</section>
-<!-- course details code -->
-
-<!-- footer code -->
-<footer>
-  <div class="mt-5 pt-5 pb-5 footer">
+  <!-- aboutus code -->
+  <section class="about-section" id="Portfolio">
     <div class="container">
       <div class="row">
-        <div class="col-lg-5 col-xs-12 about-company">
-          <h2>Tumkuru Film Institute</h2>
-          <p class="pr-5 text-white-50">This Film Institute is related to film studies, teaching and film related activities like shooting, production of corporate and feature films, short films and web series. </p>
-          <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
+        <div class="sec-title">
+          <span class="title">About Institution</span>
+          <h2>We are Creative Tech Enthusiast working since 2020</h2>
         </div>
-        <div class="col-lg-3 col-xs-12 links">
-          <h4 class="mt-lg-0 mt-sm-3">Links</h4>
-          <ul class="m-0 p-0">
-            <li>- <a href="#title">Home</a></li>
-            <li>- <a href="#Portfolio">About</a></li>
-            <li>- <a href="#ContactUs">Contact</a></li>
-         
-          </ul>
+        <div class="row">
+          <p class="text p-4 col-6 col-sm">MK Shankar -
+            MK Shankar did Post graduation in Cinema and thereafter started working as freelance film maker. He has
+            produced and directed more than seventy five Documentaries, three Hindi feature films and various corporate
+            films and commercials (Pidilite, Thermax, Crompton, L&T to name a few). His award winning films include
+            Solution (1986), Silent Revolution (1991) The resurgence (2003) and the Messengers (2004). He is a visiting
+            faculty at various film institutes in Mumbai and Maharashtra and also a selection committee member for MIFF
+            (2010).
+            Shubhra Datta -
+            did her Post graduation in Mass communication from Jadhavpur University and thereafter joined SRFTI, Kolkata
+            to pursue her studies in Film making. As a student of Cinematography she excelled in lighting techniques.
+            Under the able guidance of internationally acclaimed Cinematographer Subrata Mitra (Pather Panchali,
+            Aparajito, Apur Sansar) Shubra Datta learnt the finer nuances of lighting techniques and cinematography for
+            three years at SRFTI. Since 1997, she worked as a freelance film maker simultaneously assisting some of the
+            top – notch Cinematographers in the film industry. The projects include Munna Bhai MBBS, Shikhar, Delhi – 6,
+            Mausam to name a few. Her films ‘The Seed keepers and ‘Ladies Special’ won the prestigious national awards.
+          </p>
+          <img
+            src="https://img.freepik.com/free-photo/man-filming-with-professional-camera_23-2149066348.jpg?size=626&ext=jpg&ga=GA1.2.1793105318.1681189053&semt=ais"
+            class="rounded p-4 col-6">
         </div>
-        <div class="col-lg-4 col-xs-12 location">
-          <h4 class="mt-lg-0 mt-sm-4">Location</h4>
-          <p>Tumkuru</p>
-          <p class="mb-0"><i class="fa fa-phone mr-3"></i>8989654896</p>
-          <p><i class="fa fa-envelope-o mr-3"></i>info@hsdf.com</p>
+        <div class="row">
+          <img
+            src="https://img.freepik.com/free-photo/people-taking-part-dance-therapy-class_23-2149346545.jpg?size=626&ext=jpg&ga=GA1.1.1793105318.1681189053&semt=ais"
+            class="border-radius p-4 col-6 col-sm">
+          <p class="text p-4 col-6 col-sm">Shailendra Singh ‘Shellee’ -
+            Shailendra Singh Sodhi commonly known as ‘Shellee’ is a poet, film lyricist and writer. He has worked as
+            lyricist and background music composer for various Hindi films including the critically acclaimed Dev D,
+            Udta Punjab and other films like Luv shuvte chicken khurana, Shahid, Jugni, Phillauri, Veer de wedding,
+            Manmarziayan, Jai mummy Di, Jawani jaaneman etc.
+            Kuldip Sinha -
+            Kuldip Sinha did his diploma in Cinema from FTII Pune after completing his graduation from University of
+            Pune. Winner of eight national and Five International awards, he served ministry of I&B as a Director
+            General in its Films Division Wing. He was also CEO of Children’s Film Society of India. As a Director he
+            also served 10th and 11th MIFF and 15th Golden Elephant International Children’s Film Festival, Hyderabad.
+            As a prolific writer he has written two novels and five technical books on various aspects of film making.
+            Few of his notable films which won critical acclaim – Gandhi – An emerging reality –(1998)Through a Lens
+            Starkly(1997), No Room for Fear(1996), Toote Pankh(1995) Druzba(1992) Taranath Shenoy(1990), , Services of
+            Trees(1989), Dry Land farming(1985). Presently he is member of Film Censor Board, Mumbai, Film & Television
+            Institute of India, Pune and Satyajit Ray Film & Television institute – Kolkata.
+          </p>
         </div>
+
+        <div class="row">
+          <p class="text p-4 col-6 col-sm"> Prashantanu Mahapatra -
+            A post graduate in Cinema from FTII , Prashantanu Mahapatra teaches cinema at various institutes all over
+            Mumbai and Maharashtra. As a freelancer, he has done Cinematography for more than a dozen feature films and
+            fifty short and Documentaries. His award winning films include ‘Breathing without Air’(2004) The Last Monk
+            (2006), Meemansa(2016) and Hello Arsi (2018). Currently he is a faculty member at department of
+            Cinematography, FTII, Pune.</p>
+          <img
+            src="https://img.freepik.com/free-photo/young-sportive-man-daancing-breakdance-isolared-black-backgrounf-neon-with-mixed-lights_155003-45629.jpg?size=626&ext=jpg&ga=GA1.2.1793105318.1681189053&semt=ais"
+            class="border-radius p-4 col-sm col-6">
+        </div>
+
+
+        <div class="btn-box" id="ContactUs">
+          <a class="theme-btn btn-style-one">Contact Us</a>
+          <p>Way to our studio......map goes here</p>
+        </div>
+
+
+
       </div>
-      <div class="row mt-5">
-        <div class="col copyright">
-          <p class=""><small class="text-white-50">©2023. All Rights Reserved.</small></p>
+      <div class="sec-title">
+        <span class="title">Our Future Goal</span>
+        <h2>We want to lead in innovation & Technology</h2>
+      </div>
+      <div class="text">
+        This has a reference to our discussion for an institute exclusively related to film studies, teaching and film
+        related activities like shooting, production of corporate and feature films, short films and web series.
+      </div>
+      <div class="text">
+        Subsequently as per your request technical proposal for the proposed Institute at Tumkuru is being submitted to
+        you for your perusal.
+      </div>
+
+    </div>
+  </section>
+  <!-- course details code -->
+
+  <!-- footer code -->
+  <footer>
+    <div class="mt-5 pt-5 pb-5 footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-xs-12 about-company">
+            <h2>Tumkuru Film Institute</h2>
+            <p class="pr-5 text-white-50">This Film Institute is related to film studies, teaching and film related
+              activities like shooting, production of corporate and feature films, short films and web series. </p>
+            <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i
+                  class="fa fa-linkedin-square"></i></a></p>
+          </div>
+          <div class="col-lg-3 col-xs-12 links">
+            <h4 class="mt-lg-0 mt-sm-3">Links</h4>
+            <ul class="m-0 p-0">
+              <li>- <a href="#title">Home</a></li>
+              <li>- <a href="#Portfolio">About</a></li>
+              <li>- <a href="#ContactUs">Contact</a></li>
+
+            </ul>
+          </div>
+          <div class="col-lg-4 col-xs-12 location">
+            <h4 class="mt-lg-0 mt-sm-4">Location</h4>
+            <p>Tumkuru</p>
+            <p class="mb-0"><i class="fa fa-phone mr-3"></i>8989654896</p>
+            <p><i class="fa fa-envelope-o mr-3"></i>info@hsdf.com</p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col copyright">
+            <p class=""><small class="text-white-50">©2023. All Rights Reserved.</small></p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-   <script src="./index.js"></script>
-  </body>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+
 </html>
