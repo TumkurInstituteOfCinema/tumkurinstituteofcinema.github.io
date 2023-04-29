@@ -143,10 +143,10 @@
 .btn-style-one{
   position: relative;
   display: inline-block;
-  font-size: 17px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 20px;
   color: #ffffff;
-  padding: 10px 30px;
+  padding: 10px 20px;
   font-weight: 600;
   overflow: hidden;
   letter-spacing: 0.02em;
@@ -159,7 +159,6 @@
 }
 .about-section{
   position: relative;
-  padding: 120px 0 70px;
 }
 
 .about-section .sec-title{
@@ -334,4 +333,22 @@
  
 .text{
   text-align: justify;
+}
+
+
+
+/* nav bar customisation */
+.navbar .navbar-brand {
+  font-size: 24px;
+}
+.navbar .nav-item {
+  padding: 8px 10px;
+}
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.fa-bars {
+  color: #007bff;
+  font-size: 10px;
 }
