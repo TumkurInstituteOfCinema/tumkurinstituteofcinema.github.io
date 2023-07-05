@@ -29,6 +29,12 @@
     .hero-content p {
       font-size: 18px;
     }
+
+   @media (max-width: 576px) {
+      .reverse-sm {
+        flex-direction: row-reverse;
+      }
+    }
   </style>
 <body>
   <!-- nav bar code -->
@@ -66,7 +72,7 @@
   <div class = "container">
     <div class = "row">
       <h3>THE BACKGROUND</h3>
-      <div class="col-md-6">
+      <div class="col-md-6 mt-2">
       <ul>
       <li> Cinema in its course of 100 years has grown to more than Rs. 15000 Crores Per annum entertainment industry.</li>
       <li> India tops the world with about 800 films per year.</li>
@@ -75,15 +81,15 @@
       </ul>
       </div>
        <div class="col-md-6">
-          <img src="https://images.pexels.com/photos/274937/pexels-photo-274937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Image" class="img-fluid">
+          <img src="https://images.pexels.com/photos/274937/pexels-photo-274937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Image" class="img-fluid rounded-circle">
        </div>
     </div>
-    <div class = "row flex-md-row-reverse">
+    <div class = "row reverse-sm mt-2">
       <h3>The Dark Side of the Film Industry</h3>
         <div class="col-md-6">
-          <img src="https://images.pexels.com/photos/3649407/pexels-photo-3649407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Image" class="img-fluid">
+          <img src="https://images.pexels.com/photos/3649407/pexels-photo-3649407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Image" class="img-fluid rounded-circle">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 mt-6">
                   <ul>
           <li>It is still unorganized.</li>
            <li>It is still not a first career choice.</li>
