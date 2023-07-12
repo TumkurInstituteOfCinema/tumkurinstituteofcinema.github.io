@@ -34,10 +34,10 @@
             margin: 0;
             padding: 0;
         }
-        img {
+        /* img {
     max-width: 100%;
    height: fit-content;
-}
+} */
 
 .table--list  ul {
   list-style: disc;
