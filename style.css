@@ -39,6 +39,10 @@
    height: fit-content;
 } */
 
+.fa-bars {
+  font-size: 40px;
+}
+
 .table--list  ul {
   list-style: disc;
 }
