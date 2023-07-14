@@ -243,6 +243,10 @@
   display: block;
   font-weight: 400;
 }
+
+.navbar-brand img {
+  height: 90px !important;
+}
 .about-section .image-column .inner-column:before{
     content: '';
     position: absolute;
