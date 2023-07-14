@@ -365,4 +365,8 @@
   .navbar-brand img {
     height: 50px !important;
   }
+
+  .fa-bars {
+    font-size: 20px !important;
+  }
 }
