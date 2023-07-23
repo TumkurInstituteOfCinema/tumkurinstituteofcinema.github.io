@@ -369,4 +369,8 @@
   .fa-bars {
     font-size: 20px !important;
   }
+
+  #iframwmodaal {
+    width : 100%;
+  }
 }
